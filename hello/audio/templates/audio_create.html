@@ -1,0 +1,6 @@
+{% for a in data %}
+<a href="{{ a.audio.url }}">{{ a.title }}</a>
+<p>{{a.id}}</p>
+<audio controls src="{{ a.audio.url }}"></audio>
+
+{% endfor %}
