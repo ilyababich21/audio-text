@@ -8,7 +8,7 @@ import sys
 import webbrowser
 import pyttsx3
 from django.shortcuts import render, get_object_or_404
-import ffmpeg
+#import ffmpeg
 from django.http import FileResponse,HttpResponse
 
 
